@@ -4,7 +4,7 @@ there are 5 questions and their answers are as well upload on this repos
 
 
 /*
-que.01:- what do you mean by array give one example of array and how you can declare an array ?
+que.01:- what do you mean by array give one example of array and how you can declare an array ?<D>
 Answer:
 An array is a collection of elements of the same data type, stored in contiguous memory locations.
 It allows us to store multiple values in a single variable name instead of creating separate variables for each value.
@@ -148,12 +148,11 @@ int main() {
     int *ptr;            // pointer declaration
     ptr = &num;          // pointer initialization
 
-    printf("Value of num = %d\n", num);
+printf("Value of num = %d\n", num);
     printf("Address of num = %p\n", &num);
     printf("Value stored in pointer ptr = %p\n", ptr);
     printf("Value pointed by ptr = %d\n", *ptr);
-
-    return 0;
+return 0;
 }
 
 
@@ -198,12 +197,12 @@ Example Code:
 int main() {
     int marks[5] = {80, 75, 90, 85, 70};   // 1D array initialization
 
-    printf("Marks of students:\n");
+printf("Marks of students:\n");
     for(int i = 0; i < 5; i++) {
         printf("%d ", marks[i]);
     }
 
-    return 0;
+return 0;
 }
 
 
@@ -229,7 +228,7 @@ Example Code:
 int main() {
     int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };   // 2D array initialization
 
-    printf("2D Array (Matrix):\n");
+printf("2D Array (Matrix):\n");
     for(int i = 0; i < 2; i++) {
         for(int j = 0; j < 3; j++) {
             printf("%d ", matrix[i][j]);
@@ -237,7 +236,7 @@ int main() {
         printf("\n"); // new line after each row
     }
 
-    return 0;
+return 0;
 }
 
 
@@ -288,12 +287,12 @@ Example Code:
 int main() {
     int marks[5] = {80, 75, 90, 85, 70};   // 1D array initialization
 
-    printf("Marks of students:\n");
+ printf("Marks of students:\n");
     for(int i = 0; i < 5; i++) {
         printf("%d ", marks[i]);
     }
 
-    return 0;
+return 0;
 }
 
 
@@ -319,7 +318,7 @@ Example Code:
 int main() {
     int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };   // 2D array initialization
 
-    printf("2D Array (Matrix):\n");
+ printf("2D Array (Matrix):\n");
     for(int i = 0; i < 2; i++) {
         for(int j = 0; j < 3; j++) {
             printf("%d ", matrix[i][j]);
@@ -327,7 +326,7 @@ int main() {
         printf("\n"); // new line after each row
     }
 
-    return 0;
+return;
 }
 
 
