@@ -102,5 +102,45 @@ Library Function	Already defined in C libraries	printf(), sqrt()
 User-defined Function	Defined by user as per need	void greet() */
 
 
-/*que.03
+/*que.03:- . What do you mean by Pointers ? Write a code how you can initialise the pointer. 
+
+Answer:
+A pointer is a special variable that stores the memory address of another variable.
+Instead of storing a value directly, a pointer holds the location where the value is stored in memory.
+
+Pointers are very useful for dynamic memory allocation, arrays, functions, and structures.
+
+Pointer Declaration and Initialization Syntax:
+data_type *pointer_name;
+pointer_name = &variable_name;
+
+
+* → used to declare a pointer
+
+& → address-of operator (used to get the memory address of a variable)
+
+Example Code:
+#include <stdio.h>
+
+int main() {
+    int num = 10;        // normal variable
+    int *ptr;            // pointer declaration
+    ptr = &num;          // pointer initialization
+
+    printf("Value of num = %d\n", num);
+    printf("Address of num = %p\n", &num);
+    printf("Value stored in pointer ptr = %p\n", ptr);
+    printf("Value pointed by ptr = %d\n", *ptr);
+
+    return 0;
+}
+
+
+Explanation:
+
+int *ptr; → declares a pointer to an integer.
+
+ptr = &num; → stores the address of num in ptr.
+
+*ptr → gives the value stored at that memory address (called dereferencing).
 
